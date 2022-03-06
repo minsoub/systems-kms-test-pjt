@@ -1,0 +1,9 @@
+# {prefix}/{name}{profileSeparator}{profile}/parameter.key
+aws:
+  paramstore:
+    enabled: true
+    prefix: /systems
+    name: databaseinfo
+    profileSeparator: _
+  s3:
+    enabled: true

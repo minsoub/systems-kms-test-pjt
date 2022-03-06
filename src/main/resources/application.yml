@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+
+cloud.aws:
+  region.static: ap-northeast-2
+  stack.auto: true
+
+---
+srping:
+  profiles: dev
+  application:
+    name: Kms-test-pjt
+
+cloud:
+  aws:
+    credentials:
+      profile-name: dev
+    stack.auto: false
+
