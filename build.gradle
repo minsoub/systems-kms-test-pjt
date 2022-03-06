@@ -42,6 +42,9 @@ dependencies {
 //    implementation("com.amazonaws:aws-java-sdk-kms:1.11.1019")
 //    implementation("com.amazonaws:jmespath-java:1.11.1019")
 
+    // redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
